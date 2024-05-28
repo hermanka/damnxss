@@ -9,31 +9,16 @@ template = """
 
   </head>
   <body>
-    <h1 id="level-title">Warning: You are entering the XSS game area</h1>
+    <h1 id="level-title">Warning: You are entering the Damn XSS Vulnerabilities</h1>
 
     <div id="instructions">
 
-    <h2>Welcome, recruit!</h2>
+    <h2>Welcome, challenger!</h2>
     <a href="//www.google.com/about/appsecurity/learning/xss/index.html">Cross-site
-      scripting</a> (XSS) bugs are one of the most common and dangerous types
-    of vulnerabilities in Web applications. These nasty buggers can allow your
-    enemies to steal or modify user data in your apps and you must learn to
-    dispatch them, pronto! 
+      scripting</a> (XSS) is a type of security vulnerability commonly found in web applications. It occurs when an attacker successfully injects malicious scripts into web pages viewed by other users. These scripts can be used to steal sensitive information such as cookies or session data, manipulate the content of the web page, or redirect users to malicious websites. 
 
     <br><br>
-    At Google, we know very well how important these bugs are. In fact, Google is so 
-    serious about finding and fixing XSS issues that <a
-      href="//www.google.com/about/appsecurity/reward-program/index.html#rewards"
-    >we are paying mercenaries up to $7,500</a> for dangerous XSS 
-    bugs discovered in our most sensitive products.
-
-    <br><br>
-    In this training program, you will learn to find and exploit XSS bugs. You'll use
-    this knowledge to confuse and infuriate your adversaries by preventing such
-    bugs from happening in your applications.
-
-    <br><br>
-    There will be cake at the end of the test.
+    Understanding XSS is crucial for web developers and security professionals to protect applications from these attacks. By learning how XSS works and implementing effective mitigation techniques, such as input validation, output encoding, and deploying Content Security Policy (CSP), developers can build more secure web applications that safeguard user data and maintain trust.
     <br><br>
 
     
